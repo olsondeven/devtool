@@ -1,9 +1,10 @@
-var myApp = angular.module("myApp",["ui.router"]);
+var myApp = angular.module('app',['ui.router']);
 
 myApp.config(function($stateProvider, $urlRouterProvider){
-  $stateProvider({
+  $stateProvider
+  .state("home",{
     url: "/",
-    templateUrl: "./app/homeTemp.html",
+    templateUrl: "./app/temp/homeTemp.html",
     controller: "homeCtrl"
   });
   $urlRouterProvider.otherwise("/");//default url which is home
