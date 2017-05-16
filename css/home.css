@@ -1,5 +1,10 @@
-.box{
-  width: 100px;
-  height: 100px;
-  background-color: red;
+/*
+orange = #FF9933
+dark blue = #003399
+light blue = #99CCCC
+light gray = #CCCCCC
+*/
+h1{
+  font-size: 30px;
+  font-family: "Lobster", cursive;
 }
