@@ -3,8 +3,50 @@ orange = #FF9933
 dark blue = #003399
 light blue = #99CCCC
 light gray = #CCCCCC
+font-family: 'Anton', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Yanone Kaffeesatz', sans-serif;
 */
+main{
+  background-color: #CCCCCC;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+i{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  cursor: pointer;
+}
 h1{
-  font-size: 30px;
+  font-size: 100px;
   font-family: "Lobster", cursive;
+  color: #FF9933;
+}
+.pop-out-menu{
+  height: 50%;
+  width: 40%;
+  background-color: #99CCCC;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 1px solid #003399;
+  position: absolute;
+  top: 55px;
+  left: 45px;
+  z-index: 5;
+}
+.top-row{
+  width: 100%;
+  height: 10%;
+  float: right;
+  color: #003399;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 15px;
+  padding-top: 10px;
+}
+#close{
+  cursor: pointer;
 }
