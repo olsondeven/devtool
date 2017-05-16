@@ -5,5 +5,6 @@ myApp.config(function($stateProvider, $urlRouterProvider){
     url: "/",
     templateUrl: "./app/homeTemp.html",
     controller: "homeCtrl"
-  })
+  });
+  $urlRouterProvider.otherwise("/");//default url which is home
 });//closing
