@@ -5,7 +5,6 @@ myApp.controller("homeCtrl",function($scope,$stateParams,$state){
   document.getElementById("option2").addEventListener("click", function(){
     console.log("option2");
   });
-  //$state go
 });//closing
 ///////////////
 // jQuery /////

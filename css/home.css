@@ -39,8 +39,8 @@ h1{
   color: #FF9933;
 }
 .pop-out-menu{
-  height: 50vh;
-  width: 40vw;
+  height: 500px;
+  width: 400px;
   background-color: #99CCCC;
   margin-left: 10px;
   border-radius: 5px;
@@ -87,4 +87,10 @@ h1{
 }
 .option-btn:hover{
   color: black;
+}
+@media only screen and (max-width: 600px){
+  .pop-out-menu{
+    height: 60vh;
+    width: 30vw;
+  }
 }
