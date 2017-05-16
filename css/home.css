@@ -10,8 +10,14 @@ font-family: 'Yanone Kaffeesatz', sans-serif;
 main{
   background-color: #CCCCCC;
   width: 100vw;
-  height: 100vh;
+  height: 92vh;
+  display: flex;
+}
+header{
+  width: 100vw;
+  height: 8vh;
   text-align: center;
+  background-color: #CCCCCC;
 }
 i{
   position: absolute;
@@ -49,4 +55,9 @@ h1{
 }
 #close{
   cursor: pointer;
+}
+.option{
+  width: 80%;
+  height: 80%;
+  background-color:#003399;
 }
