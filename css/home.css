@@ -66,7 +66,7 @@ h1{
 }
 .option{
   width: 80%;
-  height: 80%;
+  height: 70%;
   background-color:#003399;
   border-radius: 5px;
   display: flex;
@@ -90,7 +90,7 @@ h1{
 }
 @media only screen and (max-width: 600px){
   .pop-out-menu{
-    height: 60vh;
-    width: 30vw;
+    height: 50vh;
+    width: 50vw;
   }
 }

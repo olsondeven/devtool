@@ -10,21 +10,21 @@ myApp.controller("homeCtrl",function($scope,$stateParams,$state){
 // jQuery /////
 ///////////////
 $( document ).ready(function() {
-  var clickBool = false;
+  var menClickBoo = false;
   $('.pop-out-menu').hide();
   $('.material-icons').on('click',function(){
-    console.log("fired");
-    if(clickBool){
+    // console.log("fired");
+    if(menClickBoo){
       $('.pop-out-menu').show('animated');
-      clickBool = !clickBool;
+      menClickBoo = !menClickBoo;
     }else{
       $('.pop-out-menu').hide('animated');
-      clickBool = !clickBool;
+      menClickBoo = !menClickBoo;
     }
   });
   $("#close").on("click",function(){
     $('.pop-out-menu').hide('animated');
-    clickBool = !clickBool;
+    menClickBoo = !menClickBoo;
   });
 });
 ///////////////
