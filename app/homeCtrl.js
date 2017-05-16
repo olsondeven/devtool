@@ -1,4 +1,11 @@
-myApp.controller("homeCtrl",function($scope,$stateParams){
+myApp.controller("homeCtrl",function($scope,$stateParams,$state){
+  document.getElementById("option1").addEventListener("click", function(){
+    console.log("option1");
+  });
+  document.getElementById("option2").addEventListener("click", function(){
+    console.log("option2");
+  });
+  //$state go
 });//closing
 ///////////////
 // jQuery /////
