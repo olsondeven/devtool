@@ -75,10 +75,16 @@ h1{
   align-items: center;
 }
 .option-btn{
-  padding: 10px;
+  width: 75%;
+  padding: 30px;
+  font-family: 'Anton', sans-serif;
   font-size: 100px;
-  font-family: "Lobster", cursive;
+  background-color: #CCCCCC;
   color: #FF9933;
+  border: 5px solid black;
   border-radius: 5px;
   cursor: pointer;
+}
+.option-btn:hover{
+  color: #99CCCC;
 }
