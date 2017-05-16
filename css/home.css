@@ -10,14 +10,21 @@ font-family: 'Yanone Kaffeesatz', sans-serif;
 main{
   background-color: #CCCCCC;
   width: 100vw;
-  height: 92vh;
+  height: 100vh;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
 }
 header{
   width: 100vw;
   height: 8vh;
   text-align: center;
   background-color: #CCCCCC;
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 i{
   position: absolute;
@@ -26,6 +33,7 @@ i{
   cursor: pointer;
 }
 h1{
+  padding-top: 10px;
   font-size: 100px;
   font-family: "Lobster", cursive;
   color: #FF9933;
@@ -60,4 +68,17 @@ h1{
   width: 80%;
   height: 80%;
   background-color:#003399;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.option-btn{
+  padding: 10px;
+  font-size: 100px;
+  font-family: "Lobster", cursive;
+  color: #FF9933;
+  border-radius: 5px;
+  cursor: pointer;
 }
